@@ -20,7 +20,7 @@ mongoose.connect(process.env.DB_URL).then(()=>{
 })
 
 app.use(cors({
-    origin: ['http://localhost:5173',"https://codehub-eight.vercel.app", "https://codestrike.vercel.app"],
+    origin: ['http://localhost:5173', "https://codersfox.vercel.app/" , "https://coders-shivangs-projects-0bf49870.vercel.app/"],
     credentials: true,
 }));
 app.use(express.json());
